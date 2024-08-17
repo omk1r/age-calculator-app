@@ -141,7 +141,7 @@ const AgeForm = () => {
           <div className="relative mt-10 mb-10">
             <hr className="w-full " />
             <img
-              src="/src/assets/icon-arrow.svg"
+              src="/public/icon-arrow.svg"
               alt="arrow"
               className="bg-purple rounded-full p-2 absolute bottom-[-30px] sm:right-0 right-1/2 cursor-pointer"
               onClick={handleClick}
