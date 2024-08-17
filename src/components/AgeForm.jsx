@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import arrowIcon from '../assets/icon-arrow.svg';
 const AgeForm = () => {
   const [day, setDay] = useState('');
   const [month, setMonth] = useState('');
@@ -141,7 +141,7 @@ const AgeForm = () => {
           <div className="relative mt-10 mb-10">
             <hr className="w-full " />
             <img
-              src="/public/icon-arrow.svg"
+              src={arrowIcon}
               alt="arrow"
               className="bg-purple rounded-full p-2 absolute bottom-[-30px] sm:right-0 right-1/2 cursor-pointer"
               onClick={handleClick}
